@@ -1,0 +1,123 @@
+
+*{
+    cursor: auto;
+}
+body{
+    background: linear-gradient(to bottom, #1A1A19, #31511E, #859F3D, #F6FCDF);
+
+}
+.navegador{
+     color: #F6FCDF;
+     display: inline-block;
+     background-color: #1A1A19;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     font-size: 18px;
+}
+.navegador:hover{
+    background-color: #31511E;
+}
+button{
+    background-color: #859F3D;
+    color: #F6FCDF;
+}
+button:hover{
+    background-color: #F6FCDF;
+    color: #859F3D;
+}
+button:active{
+    background-color: #F6FCDF;
+    color: #31511E;
+ }
+nav{
+    background-color: #1A1A19;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    margin: 10px;
+    
+ }
+.navbutton{
+    color: #31511E;
+    display: inline-block;
+    background-color: #213614;
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    display: none;
+    text-decoration: none;
+ }
+ @media (max-width: 600px) {
+    nav {
+        background-color: #a8d5f5;
+        flex-direction: column;
+    }
+    .navegador{
+        margin: 0px 0px;
+    }
+    .navbutton{
+        display: inline-block;
+    }
+    .none{
+        display: none;
+    }
+    video{
+        padding: 0px;
+        text-align: left;
+        margin: 0px;
+    }
+    nav{
+        text-align: center;
+    }
+}
+.armas{
+    text-align: center;  
+    margin: 0px;
+}
+img{
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 10px #1A1A19;
+    background: linear-gradient(to bottom, #859F3D, #31511E);
+    box-shadow: 1px 6px 5px 1px ;
+
+}
+h1{
+    background: -webkit-linear-gradient( #31511E, #859F3D); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px; font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-align: center;
+    background: -webkit-linear-gradient( #859F3D,#31511E ); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px; font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newsletter{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    font-size: 18px
+}
+h1{
+    font-family: monospace;
+    font-size: 50px;
+    margin-top: -5px;
+}
+.atencion{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    background-color: #859F3D;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cliente{
+    font-family: monospace;
+    font-size: 18px;
+    color: #c0c0c0;
+}
+.secciones{
+    font-size: 10px;
+    background: -webkit-linear-gradient( #e0e0e0, #9b9b9b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 40px; font-weight: bold;
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Armando</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="cliente">
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <BR>
+                        <span class="number">123-456-7890</span>
+                     </div>
+
+                <div>
+                    <h1 class="logo">ARMANDO</h1>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <nav>
+        <button class="navbutton" onclick="accion()">Inicio</button>
+        <a class="navegador none" href="#" target="_blank">AKM</a>
+        <a class="navegador none" href="#" target="_blank">Glock-18</a>
+        <a class="navegador none" href="#" target="_blank">Ar-15</a>
+    </nav>
+    <div class="presentacion">
+        <h1>
+            Bienvenido a Armando
+        </h1>
+        <h2>
+            Web dedicada 100% a la venta de armas de fuego de alta calidad
+        </h2>
+        <h2 class="secciones">Aqui estan las secciones de armas disponibles:</h2>
+    </div>
+    <div class="armas">
+       <a href="#" target="_blank"><img src="handgun.JPG" width="400"></a>
+        <a href="#" target="_blank"><img src="rifleasalto.jpg" width="400" height="320"></a>
+        <a href="#" target="_blank"><img src="precision.jpg" width="400" height="320"></a>
+        <a href="#" target="_blank"><img src="granada.png" width="400" height="320"></a>
+    </div>
+
+    <br>
+
+    <div class="atencion">
+    <a class="navegador none" href="#" target="_blank">Sobre nosotros</a>
+        <a class="navegador none" href="#" target="_blank">Atencion al cliente</a>
+        <a class="navegador none" href="#" target="_blank">Rastreo de envios</a>
+    </div>
+
+    <div class="newsletter">
+        <p class="title-footer">Boletín informativo</p>
+
+        <div class="content">
+            <p>
+                Suscríbete a nuestros boletines ahora y mantente al
+                día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa el correo aquí...">
+            <button>Suscríbete</button>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        Desarrollado por Mateo Gamalero &copy; 2024
+    </p>
+
+</div>
+</div>
+
+    <script>
+        function accion(){
+            console.log("el boton funca")
+            var ancla = document.getElementsByClassName("navegador")
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("none");
+            }
+        }
+    </script>
+
+</body>
+</html>
