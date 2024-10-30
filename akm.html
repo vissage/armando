@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akm</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="akm-css.css">
+</head>
+<body>
+    <header>
+        <div class="cliente">
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <BR>
+                        <span class="number">123-456-7890</span>
+                     </div>
+
+                <div>
+                    <a href="index.html" class="inicio"><h1 class="logo">ARMANDO</h1></a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <nav>
+        <button class="navbutton" onclick="accion()">Inicio</button>
+        <a class="navegador none" href="akm.html">AKM</a>
+        <a class="navegador none" href="glock.html">Glock-18</a>
+        <a class="navegador none" href="ar15.html">Ar-15</a>
+    </nav>
+    <div class="akm-presentacion">
+        <h1>
+            AKM
+        </h1>
+        <h2>
+            Introduccion
+        </h2>
+        <h2>
+            El AKM (en ruso: Автомат Калашникова модернизированный, Avtomat Kalashnikova Modernizirovannyj), 
+            es un fusil de asalto creado como sucesor del AK-47 en 1959.
+        </h2>
+        <br>
+        <h2>
+            Es el primer fusil de asalto que se utilizó ampliamente en el mundo. Es rentable y fiable, y es uno de los más baratos de fabricar, 
+            requiere un mantenimiento mínimo e infrecuente para funcionar correctamente, puede disparar aún mojado, oxidado o muy sucio, y tiene cartuchos potentes, aunque menos que el cartucho 7,62 x 51 OTAN, si bien también el retroceso es más controlable en modo automático.
+        </h2>
+        <br>
+        <h2 class="Kalashnikova">
+            Debido a sus características anteriores (y a que la URSS lo distribuyó por una gran parte del mundo), es ampliamente utilizado en muchos países y ha sufrido muy pocas modificaciones. Este fusil tiene la fama de ser común entre terroristas, 
+            insurrectos y guerrilleros, porque les es fácil conseguirlo y tiene bajos costos. Entre originales, versiones, variantes y copias se han fabricado unos 60 millones de estos fusiles en todo el mundo y sigue siendo el más común con gran diferencia en el planeta.
+        </h2>
+        <img class="img-kalashnikova" src="akm.jpg" width="40%">
+        <h1 class="Historia">
+            Historia
+        </h1>
+        <h2 class="parte-baja">
+            En 1943 el ruso Mikhaíl T. Kalashnikov creó un fusil de asalto tanto como de guerra para utilizar el calibre 7,62 x 39 mm, pero su prototipo no fue elegido para servir al ejército ruso.
+            Así que tuvo que rediseñarlo adquiriendo conocimientos del estudio de unos fusiles alemanes Stg-44 capturados en la guerra, así como de otros prototipos de otros diseñadores rusos hasta llegar a las pruebas de 1947.
+        </h2>
+        <br>
+        <h2 class="parte-baja">
+            En 1947 creó el AK-47 (Avtomat Kalashnikova 1947 goda, en ruso). Entra en servicio militar en 1949, pero su uso fue mantenido en secreto por la Unión Soviética hasta 1956, cuando empezaron distribuirlo a todas las tropas rusas
+        </h2>
+        <br>
+        <h2 class="parte-baja">
+            En 1959 se fabrica una nueva versión del AK-47, el AKM (Avtomat Kalashnikova Modernizirovannyj).
+             Éste, a diferencia de su antecesor está hecho con partes más delgadas, algunas de metal estampado y otras de madera laminada, y usa cargadores de aluminio y plástico para abaratar y acelerar su producción. El AKM es un kilogramo más ligero que el AK-47
+        </h2>
+    </div>
+
+    <br>
+
+    <div class="newsletter">
+        <p class="title-footer">Boletín informativo</p>
+
+        <div class="content">
+            <p>
+                Suscríbete a nuestros boletines ahora y mantente al
+                día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa el correo aquí...">
+            <button>Suscríbete</button>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        Desarrollado por Mateo Gamalero &copy; 2024
+    </p>
+    <script>
+        function accion(){
+            console.log("el boton funca")
+            var ancla = document.getElementsByClassName("navegador")
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("none");
+            }
+        }
+    </script>
+    </body>
+</html>

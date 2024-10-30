@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifles de asalto</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="rifle.css">
+</head>
+<body>
+    <header>
+        <div class="cliente">
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <BR>
+                        <span class="number">123-456-7890</span>
+                     </div>
+
+                <div>
+                <a href="index.html" class="Inicio"><h1 class="logo">ARMANDO</h1></a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <nav>
+        <button class="navbutton" onclick="accion()">Inicio</button>
+        <a class="navegador none" href="akm.html">AKM</a>
+        <a class="navegador none" href="glock.html">Glock-18</a>
+        <a class="navegador none" href="ar15.html">Ar-15</a>
+    </nav>
+    <div >
+        <h1>
+            Rifles de asalto
+        </h1>
+        <h2>
+            Introduccion
+        </h2>
+        <h2>
+            Un fusil de asalto es un fusil diseñado para el combate, de fuego selectivo (capaz de disparar tanto en modo automático como en modo semiautomático)
+        </h2>
+        <br>
+        <h1>
+            Etimologia
+        </h1>
+        <h2>
+            El término fusil de asalto generalmente se atribuye a Adolf Hitler, quien usó la palabra alemana Sturmgewehr (que se traduce como "rifle de asalto") como el nuevo nombre de la MP 43 (Maschinenpistole), posteriormente conocido como el Sturmgewehr 44.La propaganda aliada sugirió que el nombre fue elegido con fines propagandísticos, pero el objetivo principal era diferenciar la Sturmgewehr de los subfusiles alemanes como la MP40.
+        </h2>
+        <br>
+        <h2>
+            Se ha sugerido, sin embargo, que la Heereswaffenamt fue la responsable del nombre Sturmgewehr, y Hitler no tuvo ningún aporte además de firmar la orden de producción.
+            Además, Hitler inicialmente se opuso a la idea de un nuevo rifle de infantería, ya que Alemania carecía de la capacidad industrial para reemplazar los 12 000 000 de rifles Karabiner 98k que ya estaban en servicio, y solo cambió de opinión una vez que lo vio de primera mano.
+        </h2>
+        <h1>
+            Historia
+        </h1>
+        <h2 class="rifle" style="color: rgb(80, 71, 55);">
+            Desde comienzos del siglo XX se experimentó con munición intermedia y diseños de fusiles semiautomáticos o automáticos como medios para aumentar la potencia de fuego del infante. Entre ellos, se destacarían:
+        </h2>
+        <img class="img-rifle" src="famas.jpg" width="400px">
+        <br>
+        <ul>
+            <li>Fusil Mondragón, El primer fusil semiautomático y automático de la historia diseñado en 1884, es el primero en ser empleado en un ejército desde 1901 por el Ejército Mexicano, fue empleado en la Primera Guerra Mundial por el Imperio Alemán, Imperio Austrohúngaro, Imperio del Japón, República de Weimar, después en la Segunda Guerra Mundial en Francia de Vichy, República española, Unión Soviética, 
+                Filipinas también fue usado por países como Corea del Sur, China, Brasil, República de China y Chile.</li>
+        </ul>
+        <img class="img-rifle" src="sg543.jfif" width="400px" style="margin-bottom: 30px;">
+        <ul>
+            <li>
+                Winchester Modelo M1907, en calibre 9x35SR. Precursor directo en concepto de la Carabina M1, fue empleado por los franceses en la Primera Guerra Mundial como eficaz arma de trinchera.
+            </li>
+        </ul>
+        <img class="img-rifle" src="galil.jpg" width="400px">
+        <ul>
+            <li>
+                Avtomat Fiódorova.Adoptado en 1916, es el primer fusil de asalto operativo adoptado oficialmente. Por la premura de la guerra, se empleó en calibre 6,5x50 arisaka en lugar del 6,5 mm Fiódorov previsto por su creador. La derrota rusa y la Revolución de Octubre impidieron la adopción definitiva de este modelo tan adelantado a su tiempo.
+            </li>
+        </ul>
+        <img class="img-rifle" src="ak47.jpg" width="400px">
+        <ul>
+            <li>
+                Ribeyrolles M1918. De una concepción similar al Winchester Modelo M1907, lo más destacado de esta arma es su munición 8 x 35mm, de una concepción muy cercana a lo que acabaría siendo la munición intermedia adoptada tres décadas más tarde por alemanes o rusos.
+            </li>
+        </ul>
+        <img class="img-rifle" src="m16a2.png" width="400px">
+    </div>
+
+    <br>
+
+    <div class="newsletter">
+        <p class="title-footer">Boletín informativo</p>
+
+        <div class="content">
+            <p>
+                Suscríbete a nuestros boletines ahora y mantente al
+                día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa el correo aquí...">
+            <button>Suscríbete</button>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        Desarrollado por Mateo Gamalero &copy; 2024
+    </p>
+    <script>
+        function accion(){
+            console.log("el boton funca")
+            var ancla = document.getElementsByClassName("navegador")
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("none");
+            }
+        }
+    </script>
+    </body>
+</html>

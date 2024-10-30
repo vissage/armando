@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rifles de precision</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="precision.css">
+</head>
+<body>
+    <header>
+        <div class="cliente">
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <BR>
+                        <span class="number">123-456-7890</span>
+                     </div>
+
+                <div>
+                <a href="index.html" class="Inicio"><h1 class="logo">ARMANDO</h1></a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <nav>
+        <button class="navbutton" onclick="accion()">Inicio</button>
+        <a class="navegador none" href="akm.html">AKM</a>
+        <a class="navegador none" href="glock.html">Glock-18</a>
+        <a class="navegador none" href="ar15.html">Ar-15</a>
+    </nav>
+    <div >
+        <h1>
+            Rifles de francotirador
+        </h1>
+        <h2>
+            Introduccion
+        </h2>
+        <h2>
+            El fusil de francotirador es un tipo de arma de fuego de precisión, que permite el disparo a objetivos a muy larga distancia. Su utilización es habitual tanto en ejércitos como en cuerpos policiales de todo el mundo.
+        </h2>
+        <h2>
+            Un fusil de francotirador típico busca la mayor precisión posible en el disparo, para lo cual va equipado con una mira telescópica y utiliza munición específica para el arma que permita alcanzar largas distancias sin perder precisión de tiro. El término se suele utilizar para hacer referencia a cualquier arma de fuego de precisión con una mira telescópica que pueda ser utilizada contra objetivos humanos.
+        </h2>
+        <br>
+        <h1>
+            Historia
+        </h1>
+        <h2>
+            El papel militar del francotirador se remonta al siglo XVIII, si bien el tipo de fusil específico de francotirador es un desarrollo mucho más reciente. Los avances tecnológicos, y en especial el de la mira telescópica, así como la mayor precisión en la fabricación de las armas modernas, 
+            permitieron a los ejércitos crear equipamientos específicos para soldados entrenados como francotiradores. Los nuevos fusiles les permitirían alcanzar con precisión objetivos a distancias mucho mayores en comparación con los fusiles de infantería normales.
+        </h2>
+        <br>
+        <h2>
+            En la Guerra de Secesión, se sabe que las tropas Confederadas montaban miras telescópicas en el fusil británico Whitworth (uno de los más modernos de la época) y que llegaron a matar a oficiales de la Unión a distancias insospechadas hasta la fecha, de más de 800 yardas (731.52 metros).
+        </h2>
+        <br>
+        <h2 class="rifle">
+            Por otra parte, los primeros fusiles de francotirador eran poco más que fusiles militares estándar equipados con miras telescópicas, diseñadas para su uso en disparos distantes. Sólo al comienzo de la Primera Guerra Mundial comenzaron a aparecer fusiles especialmente adaptados para este uso, siendo uno de los primeros el SMLE Mk III
+        </h2>
+        <img class="img-rifle" src="franco1.jpg" width="400px">
+        <br>
+        <h2>
+            A finales de la guerra, las tropas de ambos bandos contaban con soldados especialmente entrenados y equipados con fusiles de francotirador. Este tipo de soldados ha jugado un papel cada vez más importante en las operaciones militares desde entonces.
+        </h2>
+        <h1 class="titulo">
+            Caracteriscas
+        </h1>
+        <h2 class="rifle" style="color: rgb(80, 71, 55);">
+            En comparación con otras armas, se distingue por su elevado nivel de precisión gracias a su mecanismo interno diseñado para este fin. Se trata de un producto capaz de realizar un disparo certero a un objetivo situado, incluso, por encima de 2000 metros de distancia, dependiendo de diversos factores, para lo cual se elabora con piezas de alta calidad. Se busca además que sea un arma equilibrada, con un peso medio alrededor de entre 5 y 6 kg dependiendo del modelo, marca, etc.
+        </h2>
+        <img class="img-rifle" src="g22.jpg" width="400px">
+        <h2 style="color: rgb(80, 71, 55);">
+            En los últimos tiempos se ha convertido en un arma fundamental para los francotiradores, tanto en el campo de batalla como para el desarrollo de labores policiales. 
+        </h2>
+        <h2 class="rifle" style="color: rgb(80, 71, 55);">
+            Por lo general y para comodidad del usuario, debe poder adaptarse al cuerpo del tirador, algo que se consigue gracias a una culata y a un bípode ajustables. Para lograr que el tirador visualice su objetivo a tan elevada distancia es necesario incorporar una mira telescópica además de algunos accesorios más; sin embargo, por motivos tradicionalistas, se acostumbra a prescindir de todo aquello que no aumente la precisión del fusil, por considerarlo una molestia o un estorbo.
+        </h2>
+        <img class="img-rifle" src="m82.jpg" width="400px" style="margin-top: -160px;">
+    </div>
+
+    <br>
+
+    <div class="newsletter">
+        <p class="title-footer">Boletín informativo</p>
+
+        <div class="content">
+            <p>
+                Suscríbete a nuestros boletines ahora y mantente al
+                día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa el correo aquí...">
+            <button>Suscríbete</button>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        Desarrollado por Mateo Gamalero &copy; 2024
+    </p>
+    <script>
+        function accion(){
+            console.log("el boton funca")
+            var ancla = document.getElementsByClassName("navegador")
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("none");
+            }
+        }
+    </script>
+    </body>
+</html>

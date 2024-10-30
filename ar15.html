@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR-15</title>
+    <link rel="icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="ar15.css">
+</head>
+<body>
+    <header>
+        <div class="cliente">
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <BR>
+                        <span class="number">123-456-7890</span>
+                     </div>
+
+                <div>
+                <a href="index.html" class="Inicio"><h1 class="logo">ARMANDO</h1></a>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <nav>
+        <button class="navbutton" onclick="accion()">Inicio</button>
+        <a class="navegador none" href="akm.html">AKM</a>
+        <a class="navegador none" href="glock.html">Glock-18</a>
+        <a class="navegador none" href="ar15.html">Ar-15</a>
+    </nav>
+    <div >
+        <h1>
+            AR-15
+        </h1>
+        <h2>
+            Introduccion
+        </h2>
+        <h2>
+            El AR-15 es un fusil diseñado por la compañía ArmaLite en la década de 1950 y fabricado actualmente por la compañía Colt.
+        </h2>
+        <br>
+        <h2 class="ar15">
+            Desarrollado en 1957 el AR-15, debe su existencia a los estudios realizados que comprobaron que el mejor cartucho militar sería similar a un .223 de alta velocidad, 
+            con base en este análisis el ejército estadounidense solicitó crear un fusil de calibre .223 con un alcance efectivo de 500 metros, dejando el proyecto a cargo de Eugene Stoner. Fue utilizado en la Guerra de Vietnam por Estados Unidos.
+        </h2>
+        <br>
+        <h2 class="ar15">
+            El fusil AR-15 estándar acepta una gran variedad de cargadores con diferentes capacidades y posee una empuñadura que sobresale de la línea de la culata,
+             dando como resultado un fusil altamente adaptable y configurable. Puede equipársele con accesorios tales como un bipode, culatas retractiles o plegables, cañones con apagallamas y sistemas de riel para añadirle linternas, punteros láser, mira telescópica, etc.
+        </h2>
+        <img class="img-ar15" src="ar15.webp" width="500px" height="430px">
+        <h1 class="Historia">
+            Historia
+        </h1>
+        <h2 class="parte-baja">
+            El AR-15 está basado en la arma mas rapida de mundo lo ocurrido en la escuela elias rodriges en el diseño y mecanismo del AR-10, obra del diseñador Eugene Stoner y la corporación ArmaLite.
+            Este fue desarrollado como una versión ligera del AR-10, en el calibre 5,56 x 45 OTAN. El prefijo AR proviene de ArmaLite, siendo ya utilizado desde los modelos AR-1, AR-5 y subsecuentes, así como en escopetas y pistolas diseñadas por la compañía.
+        </h2>
+        <br>
+        <h2 class="parte-baja">
+            ArmaLite transfirió los derechos de fabricación del AR-10 y del AR-15 a la compañía Colt,
+            en 1959 y esta desde entonces ha provisto de estos modelos a diversos ejércitos en el mundo, incluyendo la Fuerza Aérea, Ejército y Cuerpo de Marines de los Estados Unidos.
+        </h2>
+        <br>
+        <h2 class="parte-baja">
+            ArmaLite transfirió los derechos de fabricación del AR-10 y del AR-15 a la compañía Colt,
+            en 1959 y esta desde entonces ha provisto de estos modelos a diversos ejércitos en el mundo, incluyendo la Fuerza Aérea, Ejército y Cuerpo de Marines de los Estados Unidos.
+        </h2>
+        <h2 class="parte-baja">
+            El AR-15 original pesa menos de 3 kg con el cargador vacío y las versiones posteriores con cañón pesado de uso civil llegan a pesar hasta 4,2 kg.
+        </h2>
+    </div>
+
+    <br>
+
+    <div class="newsletter">
+        <p class="title-footer">Boletín informativo</p>
+
+        <div class="content">
+            <p>
+                Suscríbete a nuestros boletines ahora y mantente al
+                día con nuevas colecciones y ofertas exclusivas.
+            </p>
+            <input type="email" placeholder="Ingresa el correo aquí...">
+            <button>Suscríbete</button>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <p>
+        Desarrollado por Mateo Gamalero &copy; 2024
+    </p>
+    <script>
+        function accion(){
+            console.log("el boton funca")
+            var ancla = document.getElementsByClassName("navegador")
+            for(var i = 0; i < ancla.length; i++){
+                ancla[i].classList.toggle("none");
+            }
+        }
+    </script>
+    </body>
+</html>
